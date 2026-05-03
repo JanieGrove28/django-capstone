@@ -1,9 +1,13 @@
 from django.shortcuts import render
-from .models import Product
 
 def home(request):
     """
-    Displays all products.
+    Renders the homepage of the store application.
+
+    Args:
+        request: HTTP request object
+
+    Returns:
+        Rendered HTML page
     """
-    products = Product.objects.all()
-    return render(request, "home.html", {"products": products})
+    return render(request, "home.html")
