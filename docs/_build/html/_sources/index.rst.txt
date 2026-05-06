@@ -1,17 +1,13 @@
-.. django-capstone documentation master file, created by
-   sphinx-quickstart on Sun May  3 23:38:16 2026.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Welcome to Django Capstone Documentation
+=======================================
 
-django-capstone documentation
-=============================
+This project is a Django web application developed as part of a capstone project.
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
-
+Contents
+--------
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+   modules
